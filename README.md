@@ -4,7 +4,7 @@
 <p align="center">
   <img src="IM1.jpg" width="47%" alt="AMR-3D V1 - Presse assemblée">
   &nbsp;&nbsp;
-  <img src="T7.jpg" width="47%" alt="AMR-3D V1 - Essai d'insertion thermique">
+  <img src="T5.jpg" width="47%" alt="AMR-3D V1 - Essai d'insertion thermique">
 </p>
 
 <h3 align="center">
