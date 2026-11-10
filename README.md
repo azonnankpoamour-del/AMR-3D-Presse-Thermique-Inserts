@@ -2,9 +2,9 @@
 # AMR-3D — Conception et réalisation d'une presse thermique pour inserts filetés
 
 <p align="center">
-  <img src="IM1.jpg" width="47%" alt="AMR-3D V1 - Presse assemblée">
-  &nbsp;&nbsp;
   <img src="T3.jpg" width="47%" alt="AMR-3D V1 - Essai d'insertion thermique">
+  &nbsp;&nbsp;
+   <img src="IM1.jpg" width="47%" alt="AMR-3D V1 - Presse assemblée">
 </p>
 
 <h3 align="center">
