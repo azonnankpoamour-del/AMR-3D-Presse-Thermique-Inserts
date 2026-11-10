@@ -2,7 +2,7 @@
 # AMR-3D — Conception et réalisation d'une presse thermique pour inserts filetés
 
 <p align="center">
-  <img src="Images/AMR_PRESSE.jpg" width="75%" alt="Presse thermique AMR-3D - Version 1">
+  <img src="IM1.jpg" width="65%" alt="Presse thermique AMR-3D">
 </p>
 
 <h3 align="center">
@@ -23,7 +23,7 @@
 
 ## 1.1. Contexte
 
-Dans le domaine de la fabrication additive, les inserts filetés métalliques constituent une solution intéressante pour intégrer des assemblages vissés dans des pièces thermoplastiques.
+Dans le domaine de la fabrication additive, les inserts filetés métalliques constituent une solution intéressante pour intégrer des assemblages vissés dans les pièces thermoplastiques.
 
 Ils permettent notamment d'améliorer la résistance des zones de fixation et de rendre possibles les opérations répétées de montage et de démontage.
 
@@ -38,8 +38,6 @@ C'est à partir de cette problématique que j'ai imaginé et développé **AMR-3
 AMR-3D est un dispositif mécanique conçu pour guider le déplacement vertical d'un outil chauffant et faciliter l'insertion d'inserts filetés dans des composants thermoplastiques.
 
 La première version repose sur une structure porteuse verticale, un système de guidage, un mécanisme de déplacement, un support pour l'outil chauffant et un socle destiné au positionnement de la pièce.
-
-J'ai développé ce dispositif selon une démarche progressive allant de l'analyse du besoin à la conception CAO, puis à la fabrication additive, à l'assemblage et aux essais expérimentaux.
 
 Le projet est organisé autour de deux versions :
 
@@ -83,7 +81,6 @@ Je souhaitais développer un dispositif capable de maintenir une géométrie mé
 
 ## 2.3. Contraintes techniques
 
-- Encombrement réduit.
 - Rigidité de la structure.
 - Stabilité du socle.
 - Précision du guidage vertical.
@@ -109,19 +106,32 @@ J'ai travaillé sur la conception des éléments structurels, des composants de 
 
 ### CAO1 — Première étape de conception
 
-![CAO1](Images/CAO1.png)
+![CAO1](CAO1.jpg)
 
 ### CAO2 — Développement de la modélisation
 
-![CAO2](Images/CAO2.png)
+![CAO2](CAO2.jpg)
 
 ### CAO3 — Conception des composants mécaniques
 
-![CAO3](Images/CAO3.png)
+![CAO3](CAO3.jpg)
 
 ### CAO4 — Évolution de la conception
 
-![CAO4](Images/CAO4.png)
+![CAO4](CAO4.jpg)
+
+## 3.3. Fichiers 3D du projet
+
+Les fichiers de conception et les modèles destinés à la fabrication sont disponibles dans le dépôt.
+
+| Fichier | Format | Désignation |
+|---|---|---|
+| AMR_PRESSE.stl | STL | Modèle 3D de la presse |
+| CAD - BASEMODEDIF.step | STEP | Modèle du socle |
+| CAD - BASEMODEDIF.stl | STL | Socle exporté pour impression |
+| CAD - PR1.step | STEP | Composant PR1 |
+| CAD - PR2.step | STEP | Composant PR2 |
+| CAD - PR3.step | STEP | Composant PR3 |
 
 ---
 
@@ -246,23 +256,23 @@ Cette étape comprend l'orientation des pièces, la définition des paramètres 
 
 ### P1 — Préparation des pièces
 
-![P1](Images/P1.png)
+![P1](P1.jpg)
 
 ### P2 — Paramétrage de fabrication
 
-![P2](Images/P2.png)
+![P2](P2.jpg)
 
 ### P3 — Préparation des composants
 
-![P3](Images/P3.png)
+![P3](P3.jpg)
 
 ### P4 — Vérification des trajectoires
 
-![P4](Images/P4.png)
+![P4](P4.jpg)
 
 ### P5 — Préparation finale avant impression
 
-![P5](Images/P5.png)
+![P5](P5.jpg)
 
 ---
 
@@ -278,33 +288,29 @@ J'ai porté une attention particulière à la compatibilité des interfaces, à 
 
 ## 6.2. Documentation photographique
 
-### I1 — Assemblage : étape 1
+### IM1 — Assemblage : étape 1
 
-![I1](Images/I1.png)
+![IM1](IM1.jpg)
 
-### I2 — Assemblage : étape 2
+### IM2 — Assemblage : étape 2
 
-![I2](Images/I2.png)
+![IM2](IM2.jpg)
 
-### I3 — Assemblage : étape 3
+### IM3 — Assemblage : étape 3
 
-![I3](Images/I3.png)
+![IM3](IM3.jpg)
 
-### I4 — Assemblage : étape 4
+### IM4 — Assemblage : étape 4
 
-![I4](Images/I4.png)
+![IM4](IM4.jpg)
 
-### I5 — Présentation du dispositif assemblé
+### IM5 — Présentation du dispositif assemblé
 
-![I5](Images/I5.png)
+![IM5](IM5.jpg)
 
 ---
 
 # 7. AMR-3D V1 — Premier prototype fabriqué et testé
-
-<p align="center">
-  <img src="Images/AMR_PRESSE.jpg" width="75%" alt="AMR-3D V1">
-</p>
 
 **Statut : fabriquée, assemblée et testée avec succès.**
 
@@ -387,31 +393,31 @@ Pour les premiers essais, j'ai utilisé des inserts filetés en laiton M3 × 4 �
 
 ### T1 — Première phase des essais
 
-![T1](Images/T1.png)
+![T1](T1.jpg)
 
 ### T2 — Positionnement de l'insert
 
-![T2](Images/T2.png)
+![T2](T2.jpg)
 
 ### T3 — Début de l'insertion thermique
 
-![T3](Images/T3.png)
+![T3](T3.jpg)
 
 ### T4 — Déroulement de l'opération
 
-![T4](Images/T4.png)
+![T4](T4.jpg)
 
 ### T5 — Poursuite des essais
 
-![T5](Images/T5.png)
+![T5](T5.jpg)
 
 ### T6 — Vérification du résultat
 
-![T6](Images/T6.png)
+![T6](T6.jpg)
 
 ### T7 — Résultat final des essais
 
-![T7](Images/T7.png)
+![T7](T7.jpg)
 
 ## 8.5. Bilan expérimental
 
@@ -426,10 +432,6 @@ Elle constitue également une base de travail pour les prochaines améliorations
 ---
 
 # 9. AMR-3D V2 — Évolution avec intégration d'un étau de serrage
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AMR--3D-V2%20à%20venir-orange">
-</p>
 
 **Statut : prochaine évolution du projet.**
 
