@@ -1,10 +1,10 @@
 
-# AMR-3D — Conception et réalisation d'une presse thermique pour inserts filetés
+# PIT-3D — Conception et réalisation d'une presse thermique pour inserts filetés
 
 <p align="center">
-  <img src="T3.jpg" width="47%" alt="AMR-3D V1 - Essai d'insertion thermique">
+  <img src="T3.jpg" width="47%" alt="PIT-3D V1 - Essai d'insertion thermique">
   &nbsp;&nbsp;
-   <img src="IM1.jpg" width="47%" alt="AMR-3D V1 - Presse assemblée">
+   <img src="IM1.jpg" width="47%" alt="PIT-3D V1 - Presse assemblée">
 </p>
 
 <h3 align="center">
@@ -12,7 +12,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projet-AMR--3D-blue">
+  <img src="https://img.shields.io/badge/Projet-PIT--3D-blue">
   <img src="https://img.shields.io/badge/V1-Fabriquée%20et%20testée-success">
   <img src="https://img.shields.io/badge/V2-En%20développement-orange">
   <img src="https://img.shields.io/badge/CAO-SOLIDWORKS%203DEXPERIENCE-red">
@@ -33,7 +33,7 @@ Cependant, leur installation nécessite une maîtrise du positionnement, de l'al
 
 Une opération réalisée manuellement peut entraîner différents défauts : inclinaison de l'insert, positionnement imprécis, profondeur irrégulière ou déformation locale de la pièce.
 
-C'est à partir de cette problématique que j'ai imaginé et développé **AMR-3D**, un projet personnel de conception et de réalisation d'une presse thermique destinée à faciliter l'intégration d'inserts filetés dans les pièces issues de l'impression 3D.
+C'est à partir de cette problématique que j'ai imaginé et développé **PIT-3D**, un projet personnel de conception et de réalisation d'une presse thermique destinée à faciliter l'intégration d'inserts filetés dans les pièces issues de l'impression 3D.
 
 ## 1.2. Présentation de la solution
 
@@ -43,8 +43,8 @@ La première version repose sur une structure porteuse verticale, un système de
 
 Le projet est organisé autour de deux versions :
 
-- **AMR-3D V1 :** premier prototype entièrement conçu, fabriqué, assemblé et testé avec succès.
-- **AMR-3D V2 :** évolution mécanique intégrant un étau de serrage réglable à la place du support fixe initial.
+- **PIT-3D V1 :** premier prototype entièrement conçu, fabriqué, assemblé et testé avec succès.
+- **PIT-3D V2 :** évolution mécanique intégrant un étau de serrage réglable à la place du support fixe initial.
 
 Mon objectif est de développer une solution compacte, fonctionnelle et évolutive, adaptée aux besoins de la fabrication additive.
 
@@ -318,7 +318,7 @@ J'ai porté une attention particulière à la compatibilité des interfaces, à 
 
 ## 7.1. Présentation de la V1
 
-La première version d'AMR-3D correspond au prototype initial que j'ai développé à partir de mon travail de conception mécanique et de modélisation CAO.
+La première version de PIT-3D correspond au prototype initial que j'ai développé à partir de mon travail de conception mécanique et de modélisation CAO.
 
 Cette version repose sur une structure verticale intégrant un système de guidage, un mécanisme de déplacement, un support pour l'outil chauffant et un socle destiné à recevoir la pièce à équiper.
 
@@ -433,7 +433,7 @@ Elle constitue également une base de travail pour les prochaines améliorations
 
 ---
 
-# 9. AMR-3D V2 — Évolution avec intégration d'un étau de serrage
+# 9. PIT-3D V2 — Évolution avec intégration d'un étau de serrage
 
 **Statut : prochaine évolution du projet.**
 
@@ -487,7 +487,7 @@ La V2 représente ainsi une évolution fonctionnelle de l'architecture mécaniqu
 
 # 10. Comparaison entre les deux versions
 
-| Critère | AMR-3D V1 | AMR-3D V2 |
+| Critère | PIT-3D V1 | PIT-3D V2 |
 |---|---|---|
 | Support de pièce | Support fixe | Étau réglable |
 | Maintien | Positionnement sur le socle | Serrage mécanique |
